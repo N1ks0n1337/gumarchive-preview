@@ -27,3 +27,9 @@
 .research-document a:focus-visible,.research-toc summary:focus-visible,.research-table:focus-visible{outline:3px solid #c86b4a;outline-offset:4px}
 @media(max-width:600px){.research-head .wrap{padding:24px 18px 28px}.research-back{margin-bottom:23px}.research-content{padding:24px 18px 40px}.research-body{font-size:17px;line-height:1.75}.research-body figure{padding:12px}.research-toc{padding:14px 16px}.research-toc ol{padding-left:0}.research-actions .button{font-size:14px}.research-document .foot .wrap{padding:0 18px}}
 @media print{.research-back,.research-actions,.research-toc{display:none}.research-head{background:#fff;color:#143449}.research-subtitle,.research-author{color:#31536a}.research-content{max-width:none;padding:0}.research-table{overflow:visible}.research-body figure{break-inside:avoid}}
+
+/* Bilingual article controls. */
+.research-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:30px}
+.research-toolbar .research-back{margin:0}
+@media(max-width:600px){.research-toolbar{align-items:flex-start;gap:12px;margin-bottom:24px}.research-toolbar .research-back{font-size:14px}}
+@media print{.research-toolbar{display:none}}
